@@ -1,7 +1,7 @@
 import React from "react";
-import Desktopimage from "../assest/image-hero-desktop.webp";
-import Herotablet from "../assest/image-hero-tablet.webp";
-import Heromobile from "../assest/image-hero-mobile.webp";
+// import Desktopimage from "../assest/image-hero-desktop.webp";
+// import Herotablet from "../assest/image-hero-tablet.webp";
+// import Heromobile from "../assest/image-hero-mobile.webp";
 
 const Header = () => {
   return (
