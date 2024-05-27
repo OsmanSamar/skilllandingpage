@@ -5,6 +5,10 @@ import IconCrypto from "../assest/icon-crypto.svg";
 import DesignIcon from "../assest/icon-design.svg";
 import PhotograpIcon from "../assest/icon-photography.svg";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
+
 const Testimonails = () => {
   return (
     <div className="max-w-6xl px-5 mx-auto md:mt-10 mb-16  mt-60">
@@ -12,7 +16,10 @@ const Testimonails = () => {
 
       <div className="flex flex-col gap-12 md:grid md:grid-cols-2 md:gap-x-2.5 lg:grid-cols-3 lg:gap-x-8">
         {/*1 */}
-        <div className=" flex flex-col justify-between p-6 space-y-6 rounded-lg bg-gradient-to-tr from-[#FF6F48]  to-[#F02AA6]  ">
+        <div
+          data-aos="fade-right"
+          className=" flex flex-col justify-between p-6 space-y-6 rounded-lg bg-gradient-to-tr from-[#FF6F48]  to-[#F02AA6]  "
+        >
           <h1 className="text-2xl md:text-3xl lg:text-4xl text-white font-bold">
             Check out our most popular courses!
           </h1>
@@ -39,6 +46,7 @@ const Testimonails = () => {
 
         {/*3  */}
         <div
+          data-aos="fade-left"
           className="  flex-col  p-6 space-y-6 
         rounded-lg bg-white md:flex "
         >
@@ -57,6 +65,7 @@ const Testimonails = () => {
 
         {/*4  */}
         <div
+          data-aos="fade-right"
           className="  flex-col  p-6 space-y-6 
         rounded-lg bg-white md:flex  "
         >
@@ -97,6 +106,7 @@ const Testimonails = () => {
 
         {/*6  */}
         <div
+          data-aos="fade-left"
           className="  flex-col  p-6 space-y-6 
         rounded-lg bg-white md:flex "
         >
