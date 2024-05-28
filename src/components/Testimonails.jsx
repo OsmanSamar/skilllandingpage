@@ -18,6 +18,12 @@ const Testimonails = () => {
         {/*1 */}
         <div
           data-aos="fade-right"
+          data-aos-duration="1000" //animation duration for a smoother or faster effect
+          data-aos-easing="ease-in-out" //Change the easing function for different animation effects.
+          data-aos-delay="10" //Add a delay to stagger the animations.
+          data-aos-once="false" //Control if the animation happens only once or every time the element is scrolled into view.
+          data-aos-mirror="true" //Repeat the animation when scrolling up.
+          // data-aos-offset="100" //Adjust the trigger point of the animation relative to the viewport.
           className=" flex flex-col justify-between p-6 space-y-6 rounded-lg bg-gradient-to-tr from-[#FF6F48]  to-[#F02AA6]  "
         >
           <h1 className="text-2xl md:text-3xl lg:text-4xl text-white font-bold">
@@ -47,6 +53,12 @@ const Testimonails = () => {
         {/*3  */}
         <div
           data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="10"
+          data-aos-once="false"
+          data-aos-mirror="true"
+          //data-aos-offset="100"
           className="  flex-col  p-6 space-y-6 
         rounded-lg bg-white md:flex "
         >
@@ -66,6 +78,13 @@ const Testimonails = () => {
         {/*4  */}
         <div
           data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="10"
+          data-aos-once="false"
+          data-aos-mirror="true"
+          //data-aos-offset="100"
+          // data-aos-anchor-placement="top-bottom" //Define which part of the element should trigger the animation.
           className="  flex-col  p-6 space-y-6 
         rounded-lg bg-white md:flex  "
         >
@@ -107,6 +126,12 @@ const Testimonails = () => {
         {/*6  */}
         <div
           data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="10"
+          data-aos-once="false"
+          data-aos-mirror="true"
+          //data-aos-offset="100"
           className="  flex-col  p-6 space-y-6 
         rounded-lg bg-white md:flex "
         >
